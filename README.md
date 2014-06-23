@@ -1,13 +1,10 @@
 ## vision.js
 
-This project is the development of some Computer Vision algorithms in JavaScript, using the HTML5's getUserMedia() API.
+Some Computer Vision algorithms in JavaScript, using the HTML5's getUserMedia() API.
 
-### Requirements
+### Considerations
 
-Since the getUserMedia() API is not supported in all browsers, there are 3 requirements for running this project:
-- [Chrome](http://www.google.com/intl/pt-BR/chrome/) or [Firefox](http://www.mozilla.org/pt-BR/firefox/new/).  
-- A local server.
-- A webcam.  
+Since the getUserMedia() API only works on Chrome and Firefox web browsers, this is the main testing enviroment.
 
 ### License
 
