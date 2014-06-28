@@ -56,6 +56,13 @@ function skinfilter() {
             a = draw.data[count_data_big_array+3]
 
             hsv = rgb2Hsv(r,g,b);
+
+            huemin = 0.0;
+			huemax = 0.14;
+			satmin = 0.3;
+			satmax = 0.7;
+			valmin = 0.4;
+			valmax = 1.0;
             
             if(((hsv[0] > huemin && hsv[0] < huemax)||(hsv[0] > 0.59 && hsv[0] < 1.0))&&(hsv[1] > satmin && hsv[1] < satmax)&&(hsv[2] > valmin && hsv[2] < valmax)){
 
