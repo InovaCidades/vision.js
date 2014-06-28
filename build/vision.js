@@ -43,6 +43,11 @@ function skinfilter() {
 	var skin_filter = canvas.getImageData(0,0,width,height);
 	var total_pixels = skin_filter.width * skin_filter.height;
 	var index_value = total_pixels * 4;
+
+	for (var y = 0; y < height; y++) {
+		for (var x = 0; x < width; x++) {
+		}
+	}
 }
 
 /**
