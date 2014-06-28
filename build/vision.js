@@ -9,7 +9,7 @@
 video = document.getElementById('video');
 canvas = document.getElementById('canvas');
 
-_ = canvas.getContext('2d');
+canvas = canvas.getContext('2d');
 ccanvas = document.getElementById('comp');
 c_ = ccanvas.getContext('2d');
 
@@ -34,13 +34,13 @@ function dump() {
 		canvas.width = ccanvas.width = width;
 		canvas.height = ccanvas.height = height;
 	}
-	_.drawImage(video,width,0,-width,height);
-	draw = _.getImageData(0,0,width,height);
+	canvas.drawImage(video,width,0,-width,height);
+	draw = canvas.getImageData(0,0,width,height);
 }
 
 function skinfilter() {
 
-	var skin_filter = _.getImageData(0,0,width,height);
+	var skin_filter = canvas.getImageData(0,0,width,height);
 	var total_pixels = skin_filter.width * skin_filter.height;
 	var index_value = total_pixels * 4;
 }
