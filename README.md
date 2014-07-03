@@ -4,7 +4,7 @@ Some Computer Vision algorithms in JavaScript, using the HTML5's getUserMedia() 
 
 ### Considerations
 
-Since the getUserMedia() API only works on Chrome and Firefox web browsers, this is the main testing enviroment.
+Since the getUserMedia() API only works on Chrome and Firefox web browsers, these are the main testing enviroment.
 
 ### License
 
